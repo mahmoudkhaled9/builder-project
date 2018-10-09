@@ -1,6 +1,17 @@
-# Exam
+# Builder project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
+
+# How to run it :
+<ul>
+  <li>download this project</li>
+  <li>run<strong> npm install</strong></li>
+  <li>after it finishes run <strong>ng server --open</strong></li>
+
+</ul>
+
+## SCREENSHOT:
+<img src="builder.jpg">
 
 ## Development server
 
