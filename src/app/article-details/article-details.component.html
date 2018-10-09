@@ -1,0 +1,15 @@
+<div class="container">
+  <h2 class="text-center">Article details</h2>
+<div class="card mb-3">
+    <img class="card-img-top img-fluid" [src]="article.urlToImage" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{article.title}}</h5>
+      <p class="card-text">{{article.description}}</p>
+      <br><br>
+
+     <a [href]="article.url" target="_blanck"> <button class="btn btn-info">Go to the source</button></a>
+    </div>
+  </div>
+  
+  
+</div>  

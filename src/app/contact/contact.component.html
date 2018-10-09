@@ -1,0 +1,102 @@
+<!-- <div class="container">
+    <div class="float-left"><h2>news of {{agency_title}}</h2></div>
+    <div class="btn-group float-right ">
+        <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          agency
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" *ngFor="let agency of agenccy" (click)="changeagency(agency)">{{agency}}</a>
+        </div>
+      </div> 
+
+      <input class="form-control my-2" [(ngModel)]='term' >
+  <br><br><br>
+    <div class="row">
+        <div class="card col-md-4 " *ngFor="let post of newpost|search:term" style="margin-bottom: 5px; padding: 0;">
+          <img class="card-img-top " src="{{post.urlToImage}}" height="250px" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title"><a [href]="post.url" target="_blanck" >{{post.title|subTitle:50}}</a></h5>
+            <p class="card-text">{{post.description}}</p>
+          </div>
+        </div>
+       </div>
+     </div> -->
+
+
+
+    <!--        start fourm-->
+    <section class="fourm" id="hire_me" style="margin:50 50px;">
+        
+        <div class="container">
+            
+            <div class="top_head">
+                <h2>Join Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+            
+            <div class="row">
+            
+                <div class="col-md-6">
+                
+                    <div class="fourm_content">
+                    
+                        <h3><strong>CONTACT INFO</strong></h3>
+                        <p>Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.
+
+                        </p>
+                        
+                        <div class="icons text-center">
+                        <p><i class="fa fa-map-marker"></i> New Street 22545, Nexa Road, New York City, USA</p>
+                        <div class="call_icons">
+                        <p class="coloured_icon"><i class="fa fa-envelope"></i> hello@uigrid.com</p>
+                        <p><i class="fa fa-phone"></i> 001-000-000-000</p>
+                        </div>
+                        </div>
+                        
+                        
+                        <div class="con-social">
+                        
+                            <i class="fab fa-facebook fa-lg"></i> 
+                            <i class="fab fa-twitter fa-lg"></i>
+                            
+                            <i class="fab fa-google-plus fa-lg"></i>
+                            
+                            <i class="fab fa-github fa-lg"></i>
+                            
+                            <i class="fab fa-behance fa-lg"></i>
+                            
+                            <i class="fab fa-dribbble fa-lg"></i>
+                        
+                        </div>
+                    
+                    </div>
+                
+                </div>
+                
+                <div class="col-md-6">
+                
+                    <form>
+                    
+                        <input class="form-control input-lg" type="text" placeholder="Enter Name">
+                        <input class="form-control input-lg" type="email" placeholder="Enter Email">
+                        <textarea class="form-control input-lg" maxlength="101" placeholder="Enter Message"></textarea>
+                        <span id="char">100</span> Characyer Reamining
+                        <button style="display:block;margin-top:20px" class="btn" (click)=(thnkMSG())>Send Message</button>
+                    
+                    </form>
+                
+                </div>
+            
+            
+            </div>
+        
+            
+        
+        </div>
+    
+    </section>
+
+    <br><br><br><br>
+    
+<!--        end fourm-->
+
